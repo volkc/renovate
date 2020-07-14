@@ -1,5 +1,796 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`datasource/crate getReleases makes http call with correct suffix 1`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+]
+`;
+
+exports[`datasource/crate getReleases makes http call with correct suffix 2`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/1",
+  },
+]
+`;
+
+exports[`datasource/crate getReleases makes http call with correct suffix 3`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/1",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/12/34/1234567",
+  },
+]
+`;
+
+exports[`datasource/crate getReleases makes http call with correct suffix 4`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/1",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/12/34/1234567",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/2/ab",
+  },
+]
+`;
+
+exports[`datasource/crate getReleases makes http call with correct suffix 5`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/1",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/12/34/1234567",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/2/ab",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/3/a/abc",
+  },
+]
+`;
+
+exports[`datasource/crate getReleases makes http call with correct suffix 6`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/1",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/12/34/1234567",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/2/ab",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/3/a/abc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/ab/cd/abcd",
+  },
+]
+`;
+
+exports[`datasource/crate getReleases makes http call with correct suffix 7`] = `
+Array [
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/no/n_/non_existent_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/so/me/some_crate",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/li/bc/libc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/am/et/amethyst",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/a",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/1/1",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/12/34/1234567",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/2/ab",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/3/a/abc",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/ab/cd/abcd",
+  },
+  Object {
+    "headers": Object {
+      "accept-encoding": "gzip, deflate",
+      "host": "raw.githubusercontent.com",
+      "user-agent": "https://github.com/renovatebot/renovate",
+    },
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/rust-lang/crates.io-index/master/ab/cd/abcde",
+  },
+]
+`;
+
 exports[`datasource/crate getReleases processes real data: amethyst 1`] = `
 Object {
   "dependencyUrl": "https://crates.io/crates/amethyst",

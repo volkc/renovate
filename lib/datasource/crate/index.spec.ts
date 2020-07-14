@@ -2,7 +2,7 @@ import fs from 'fs';
 import { getPkgReleases } from '..';
 import * as httpMock from '../../../test/httpMock';
 
-import { id as datasource, getIndexSuffix } from '.';
+import { id as datasource } from '.';
 
 const res1 = fs.readFileSync('lib/datasource/crate/__fixtures__/libc', 'utf8');
 const res2 = fs.readFileSync(
@@ -14,18 +14,6 @@ const baseUrl =
   'https://raw.githubusercontent.com/rust-lang/crates.io-index/master/';
 
 describe('datasource/crate', () => {
-  describe('getIndexSuffix', () => {
-    it('returns correct suffixes', () => {
-      expect(getIndexSuffix('a')).toBe('1/a');
-      expect(getIndexSuffix('1')).toBe('1/1');
-      expect(getIndexSuffix('1234567')).toBe('12/34/1234567');
-      expect(getIndexSuffix('ab')).toBe('2/ab');
-      expect(getIndexSuffix('abc')).toBe('3/a/abc');
-      expect(getIndexSuffix('abcd')).toBe('ab/cd/abcd');
-      expect(getIndexSuffix('abcde')).toBe('ab/cd/abcde');
-    });
-  });
-
   describe('getReleases', () => {
     it('returns null for empty result', async () => {
       httpMock.scope(baseUrl).get('/no/n_/non_existent_crate').reply(200, {});
@@ -108,5 +96,24 @@ describe('datasource/crate', () => {
       expect(res).toBeDefined();
       expect(httpMock.getTrace()).toMatchSnapshot();
     });
+    it.each([
+      ['a', '/1/a'],
+      ['1', '/1/1'],
+      ['1234567', '/12/34/1234567'],
+      ['ab', '/2/ab'],
+      ['abc', '/3/a/abc'],
+      ['abcd', '/ab/cd/abcd'],
+      ['abcde', '/ab/cd/abcde'],
+    ])(
+      'makes http call with correct suffix',
+      async (lookupName, indexSuffix) => {
+        httpMock.scope(baseUrl).get(indexSuffix).reply(200, '\n');
+        await getPkgReleases({
+          datasource,
+          depName: lookupName,
+        });
+        expect(httpMock.getTrace()).toMatchSnapshot();
+      }
+    );
   });
 });
